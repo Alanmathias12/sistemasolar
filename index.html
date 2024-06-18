@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SISTEMA SOLAR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1>SISTEMA SOLAR</h1>
+    </header>
+ 
+
+
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">Terra</h2>
+
+          <img
+            class="imagem-personagem"
+            src="src/imagens/principal1.jpeg"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              "A Terra é considerada um planeta telúrico e possui sua estrutura interna dividida em: crosta terrestre <br>manto e núcleo. Além da estrutura interna, há também a externa que corresponde à litosfera, hidrosfera <br> biosfera e atmosfera, que são o que oferece as condições favoráveis para a existência de vida aqui."
+            </p>
+          </div>
+        </li>
+        <li class="cartao selecionado fundo-2">
+          <h2 class="nome">Marte</h2>
+
+        <img
+          class="imagem-personagem"
+          src="src/imagens/principal2.jpeg"
+          alt="Seu Clope"
+        />
+
+        <div class="descricao">
+          <h3 class="titulo">Descrição</h3>
+          <p class="texto">
+            Marte é o quarto planeta mais próximo do Sol e o segundo menor planeta do sistema solar, depois de Mercúrio, sendo consideravelmente menor que o planeta Terra. <br> Apresenta uma coloração avermelhada, pela presença de óxido de ferro na sua superfície. Por isso, recebeu o nome de Marte, <br> em homenagem ao deus romano da guerra.
+        </div>
+      </li>
+
+    </li>
+    <li class="cartao selecionado fundo-3">
+      <h2 class="nome">SATURNO</h2>
+
+      <img
+        class="imagem-personagem"
+        src="src/imagens/principal3.jpeg"
+        alt="Seu Clope"
+      />
+
+      <div class="descricao">
+        <h3 class="titulo">Descrição</h3>
+        <p class="texto">
+          "Saturno é o sexto planeta a partir do Sol e é o segundo maior planeta do Sistema Solar, ficando atrás apenas de Júpiter. Suas dimensões são 9 vezes maiores que as da Terra. <br> Devido à sua composição, é conhecido também como gigante gasoso e destaca-se pela beleza do sistema de anéis que o circunda, os quais são formados a partir de fragmentos de rocha e gelo."
+        </p>
+      </div>
+    </li>
+  </li>
+  <li class="cartao selecionado fundo-4">
+    <h2 class="nome">BURACO NEGRO</h2>
+
+    <img
+      class="imagem-personagem"
+      src="src/imagens/principal4.jpeg"
+      alt="Seu Clope"
+    />
+
+    <div class="descricao">
+      <h3 class="titulo">Descrição</h3>
+      <p class="texto">
+        "Buraco negro é um objeto astronômico que apresenta densidade infinita e um campo gravitacional bastante intenso, <br> capaz de atrair todos os elementos que cruzam o seu horizonte de eventos, conhecido como ponto de não retorno. Quando ultrapassa esse limiar, até mesmo a luz é absorvida pelo buraco negro. Sua origem ocorre principalmente por meio do colapso gravitacional de estrelas."
+      </p>
+    </div>
+  </li>
+</li>
+<li class="cartao selecionado fundo-5">
+  <h2 class="nome">Lua</h2>
+
+  <img
+    class="imagem-personagem"
+    src="src/imagens/principal5.jpeg"
+    alt="Seu Clope"
+  />
+
+  <div class="descricao">
+    <h3 class="titulo">Descrição</h3>
+    <p class="texto">
+      "A Lua é o único satélite natural da Terra e o quinto maior do Sistema Solar. Ela se formou, há aproximadamente 4,5 bilhões de anos, do impacto de um grande corpo celeste com o planeta, e desde então realiza a sua órbita ao redor dele e também do Sol. <br> A forma como a luz solar incide sobre a sua superfície e como a enxergamos da Terra produz as diferentes fases da Lua. Além disso, ela interage com o nosso planeta e dá origem às marés e aos eclipses."
+    </p>
+  </div>
+</li>
+        
+        <!-- Restante dos elementos <li> -->
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+      </button>
+    </main>
+
+    <div class="banner">
+      <video autoplay loop>
+      <source src="/movie/VID-20240610-WA0010.mp4" type="video/mp4">
+      </video>
+    </div>
+     
+     <div class="audio">
+    <audio controls>
+      <source src="audio/WhatsApp Audio 2024-06-18 at 08.29.39.mpeg" type="audio/x-wav">
+    </audio>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
